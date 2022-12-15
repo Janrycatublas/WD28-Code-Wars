@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    background-image:url(backimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    }
+h1 {
+    font-size: 50px;
+    text-align: center;
+    }
+p{
+    font-size: 20px;
+    text-align: center;
+    
+}        
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+    position: relative;
+    opacity: 0.8;
+    /* margin-top: 80px; */
+    
+    
+  }
+.hero{
+    width:450px ;
+    height: inherit;
+}  
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2b6fee;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+  }
